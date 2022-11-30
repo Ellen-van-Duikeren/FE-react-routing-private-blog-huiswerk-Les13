@@ -1,0 +1,21 @@
+.homepage {
+    background-color: antiquewhite;
+    padding: 20px;
+}
+
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+.paragraphs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+p {
+    flex-basis: 400px;
+}
+

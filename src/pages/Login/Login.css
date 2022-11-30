@@ -1,0 +1,52 @@
+.login {
+    background-color: antiquewhite;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login h1 {
+    margin-bottom: 40px;
+}
+
+input {
+    position: absolute;
+    left: 170px;
+    padding: 5px;
+    border-radius: 5px;
+    border: gray 1px solid;
+}
+
+#inlog-button, #login-button {
+    margin-left: 20px;
+    background-color: indianred;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    margin-bottom: 40px;
+}
+
+#inlog-button {
+    margin-top: 20px;
+    width: 200px;
+}
+
+#login-button {
+    width: 250px;
+}
+
+#usernameDoesNotExist, #passWordIsNotRight {
+    color: red;
+    margin-top: 20px;
+    font-size: 0.8em;
+    margin-left: -1px;
+}

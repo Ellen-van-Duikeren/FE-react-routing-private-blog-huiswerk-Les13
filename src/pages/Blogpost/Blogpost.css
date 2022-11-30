@@ -1,0 +1,9 @@
+.blogpost {
+    margin-top: 20px;
+    margin-left: 50px;
+    padding-left: 20px;
+    max-width: 500px;
+    box-shadow: lightgray 2px 2px 2px 2px;
+    background-color: papayawhip;
+}
+
