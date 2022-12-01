@@ -4,7 +4,6 @@ import {Link, useParams} from 'react-router-dom';
 import posts from '../../data/posts.json';
 
 function Blogposts() {
-    const {id} = useParams();
 
     return (
         <>
