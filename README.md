@@ -1,4 +1,4 @@
-# Opdrachtbeschrijving
+Blogposts# Opdrachtbeschrijving
 
 ## Inleiding
 
@@ -44,9 +44,7 @@ De blog-applicatie heeft op dit moment nog geen pagina's en ook geen routing. Di
     * De **Login pagina** bevat simpelweg een knop met "Inloggen" die de gebruiker doorstuurt naar overzichtspagina;
     * De **Blog Overzicht pagina** bevat de totale hoeveelheid posts (*getal*) en alle blog-titels. De titels zijn links
       die je doorlinken naar die specifieke post.
-    * De **Blogpost pagina** is een component dat, op basis van de parameter in de url (*dynamic parameters*), de juiste
-      blogpost ophaalt uit de meegeleverde JSON data, en deze weergeeft . De JSON data kun je simpelweg importeren en
-      gebruiken als een array met objecten:
+    * De **Blogpost pagina** is een component dat, op basis van de parameter in de url (*dynamic parameters*), de juiste blogpost ophaalt uit de meegeleverde JSON data, en deze weergeeft. De JSON data kun je simpelweg importeren en gebruiken als een array met objecten:
 
 ```
 import posts from '../data/posts.json';
